@@ -35,6 +35,45 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* nav */
+
+nav {
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,50,0.8);
+    z-index: 10;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    width: 25%;
+    height: 10vh;
+    text-align: center;
+    
+}
+
+nav span {
+    display: block;
+}
+
+nav .fa {
+    font-size: 1.8rem;
+}
+
+nav span:not(.fa) {
+    font-size: 0.8rem;
+}
+
 /* Header */
 
 header {
