@@ -311,9 +311,11 @@ h2 {
 /* footer */
 
 footer {
-  min-height: 10vh;
-  background-color: #fff;
-  display: flex;
+    min-height: 10vh;
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 15vh;
+
 }
 
 footer ul {
